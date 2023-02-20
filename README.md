@@ -1,12 +1,32 @@
 # Website Built in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and built with of [SurveyJS](https://surveyjs.io/form-library).
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and [Bootstrap CSS](https://github.com/twbs/bootstrap/blob/main/LICENSE) was used for a lot of the page design.
 
-The homepage is just html, css, and javascript. 
+The homepage is built in `html`, `css`, and `javascript`.
+  
+My custom admin framework was used to bootstrap survey components, which are built from [SurveyJS](https://surveyjs.io/form-library) Form Library using `JSON` (a data transmission extension of JavaScript) to transmit data.  
 
-The css and js files for the html outside of the survey (for the landing page, Why? page, etc.) is located in assets folder.
+Backend is JavaScript, using REST API to a Salesforce custom object. You can view the framework for this in  `APITest.js`.
+
+CSS and JS files for the HTML outside of the survey are located in the assets folder (for the landing page, Why? page, etc.).
+
+# GOALS
+
+1. ~~Build basic website landing page and navigation using html, css, and js.~~
+2. ~~Add React and SurveyJS to website.
+3. ~~Connect the two. A button on the landing page to load React app and SurveyJS.
+4. Build a custom object in Salesforce to store the data as well as any admin work for that.
+5. Connect backend survey responses via REST API to that custom object. Test.
+7. Finish Building the Survey in SurveyJS.
+8. Finish Stylization.
+9. Start production build. Build .NET or Ruby on Rails Framework and add elements.
+10. Launch.
 
 
+
+
+
+# For Developer Use
 ## Available Scripts
 
 In the project directory, you can run:
