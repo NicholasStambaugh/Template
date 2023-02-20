@@ -1,6 +1,11 @@
 # Website Built in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and built with of [SurveyJS](https://surveyjs.io/form-library).
+
+The homepage is just html, css, and javascript. 
+
+The css and js files for the html outside of the survey (for the landing page, Why? page, etc.) is located in assets folder.
+
 
 ## Available Scripts
 
