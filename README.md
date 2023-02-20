@@ -13,8 +13,8 @@ CSS and JS files for the HTML outside of the survey are located in the assets fo
 # GOALS
 
 1. ~~Build basic website landing page and navigation using html, css, and js.~~
-2. ~~Add React and SurveyJS to website.
-3. ~~Connect the two. A button on the landing page to load React app and SurveyJS.
+2. ~~Add React and SurveyJS to website.~~
+3. ~~Connect the two. A button on the landing page to load React app and SurveyJS.~~
 4. Build a custom object in Salesforce to store the data as well as any admin work for that.
 5. Connect backend survey responses via REST API to that custom object. Test.
 7. Finish Building the Survey in SurveyJS.
