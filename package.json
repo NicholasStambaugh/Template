@@ -1,6 +1,12 @@
 {
   "dependencies": {
-    "create-react-app": "^5.0.1",
-    "survey-react": "^1.9.74"
+    "react": "latest",
+    "react-dom": "latest",
+    "survey-core": "latest",
+    "survey-react": "^1.9.76",
+    "survey-react-ui": "latest"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
   }
 }

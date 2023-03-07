@@ -1,23 +1,24 @@
-const accessToken = 'your_access_token_here';
-const customObjectEndpoint = 'https://your_salesforce_instance_url_here/services/data/vXX.X/sobjects/Your_Custom_Object__c/';
+// secure JSON POST to salesforce custom object
 
-const saveSurveyData = (jsonData) => {
-  fetch(customObjectEndpoint, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${accessToken}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(jsonData)
-  })
-  .then(response => {
-    if (response.ok) {
-      console.log('Survey data saved successfully!');
-    } else {
-      console.error('Failed to save survey data:', response);
-    }
-  })
-  .catch(error => {
-    console.error('Error saving survey data:', error);
+// Load the JSON data from a separate file
+$.getJSON("your-json-file.js", function(data) {
+
+  // Set up the AJAX request to send data to Salesforce
+  $.ajax({
+      url: "https://yourinstance.salesforce.com/services/data/v50.0/sobjects/YourCustomObject__c/",
+      type: "POST",
+      headers: {
+          "Authorization": "Bearer YourAccessToken",
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+      },
+      data: JSON.stringify(data),
+      success: function(response) {
+          console.log("Data sent successfully: " + JSON.stringify(response));
+      },
+      error: function(xhr, status, error) {
+          console.error("Error sending data: " + error);
+      }
   });
-}
+
+});
