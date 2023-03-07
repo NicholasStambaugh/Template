@@ -1,0 +1,14 @@
+#root {
+--primary: #fb5118;
+--background: #555555;
+--background-dim: #4d4d4d;
+--background-dim-light: #4d4d4d;
+--primary-foreground: #ffffff;
+--foreground: #ededed;
+--base-unit: 8px;
+}
+
+h3 {
+  color: #172E4A;
+  font-size: medium;
+}
